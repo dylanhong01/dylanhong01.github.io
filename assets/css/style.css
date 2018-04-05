@@ -363,7 +363,7 @@ ul.list-check li::before {
 }
 
 /* 
-SOCIAL ICON 
+rAL ICON 
 -------------------------------------------*/
 .social-icons {
     margin-top: 20px;
@@ -856,8 +856,10 @@ Resume Timeline
     z-index: -1;
 }
 
+/* #33bbff */
+
 .timeline>li .timeline-content:hover {
-    background: #68c3a3;
+    background: #33bbff;
     color: #fff;
 }
 
@@ -878,7 +880,7 @@ Resume Timeline
     transition: all 400ms;
 }
 .timeline>li .timeline-panel:hover::before {
-    border-left: 12px solid #68c3a3;
+    border-left: 12px solid #33bbff;
 }
 
 .timeline>li.timeline-inverted .timeline-panel::before {
@@ -890,7 +892,7 @@ Resume Timeline
     transition: all 400ms;
 }
 .timeline>li.timeline-inverted .timeline-panel:hover::before {
-    border-right: 12px solid #68c3a3;
+    border-right: 12px solid #33bbff;
     border-left: 0;
 }
 
@@ -912,7 +914,7 @@ Resume Timeline
     transition: all 400ms;
 }
 .timeline>li .timeline-panel:hover::after {
-    border-left: 12px solid #68c3a3;
+    border-left: 12px solid #33bbff;
 }
 
 .timeline>li.timeline-inverted .timeline-panel::after {
@@ -925,7 +927,7 @@ Resume Timeline
     transition: all 400ms;
 }
 .timeline>li.timeline-inverted .timeline-panel:hover::after {
-    border-right: 12px solid #68c3a3;
+    border-right: 12px solid #33bbff;
     border-left: 0;
 }
 
@@ -984,7 +986,7 @@ Resume Timeline
 }
 
 .progress-bar {
-    background-color: #68c3a3;
+    background-color: #33bbff;
 }
 .progress-bar span{
     position: absolute;
@@ -1028,11 +1030,14 @@ Resume Timeline
     height: 140px;
     margin: 40px auto;
     text-align: center;
+    
+
 }
 .chart canvas {
     position:absolute; 
     top:0; 
     left:0;
+
 }
 .percent {
     display: inline-block;
@@ -1054,6 +1059,7 @@ Resume Timeline
     text-transform: capitalize;
     display: block;
     margin-top: 20px;
+
 }
 
 /*.percent:after {content: '%';margin-left: 0.1em;font-size: .8em;}*/
@@ -1777,7 +1783,7 @@ Icon for all respective meta
 }
 
 .personal-info h1 span{
-    color:#68c3a3;
+    color:#33bbff;
 }
 .personal-info p {
     margin-bottom: 40px;
