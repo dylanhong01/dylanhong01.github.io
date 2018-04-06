@@ -48,7 +48,8 @@ body, html{
 /* Link style
 ---------------------------------------------------------*/
 a {
-    color: #68c3a3;
+    color: #000;
+    font-weight: bold;
 }
 a,
 a > * {
@@ -1030,7 +1031,7 @@ Resume Timeline
     height: 140px;
     margin: 40px auto;
     text-align: center;
-    
+
 
 }
 .chart canvas {
@@ -1168,7 +1169,7 @@ Resume Timeline
 
 .links a i{
     position: relative;
-    color: #68c3a3;
+    color: #33bbff;
     font-size: 16px;
     margin: 0 13px;
     z-index: 100;
@@ -1193,7 +1194,7 @@ Resume Timeline
             transform: rotate(45deg);
 }
 .links a:hover i::after {
-    background-color: #68c3a3;
+    background-color: #33bbff;
 }
 
 .portfolio-info {
@@ -1427,11 +1428,14 @@ Icon for all respective meta
     color: #fff;  
 }
 .hire-section-bg {
+    
     padding: 110px 0;
-    background: -webkit-linear-gradient(bottom, #68C3A3, rgba(104, 195, 163, 0.7)); /*Safari 5.1-6*/
-    background: -o-linear-gradient(top, #68C3A3, rgba(104, 195, 163, 0.7)); /*Opera 11.1-12*/
-    background: -moz-linear-gradient(top, #68C3A3, rgba(104, 195, 163, 0.7)); /*Fx 3.6-15*/
-    background: linear-gradient(to top, #68C3A3, rgba(104, 195, 163, 0.7)); /*Standard*/
+    /*background: -webkit-linear-gradient(bottom, #68C3A3, rgba(104, 195, 163, 0.7)); /*Safari 5.1-6*/
+   /* background: -o-linear-gradient(top, #68C3A3, rgba(104, 195, 163, 0.7)); /*Opera 11.1-12*/
+   /* background: -moz-linear-gradient(top, #68C3A3, rgba(104, 195, 163, 0.7)); /*Fx 3.6-15*/
+   /* background: linear-gradient(to top, #68C3A3, rgba(104, 195, 163, 0.7)); /*Standard*/ 
+
+
 }
 
 .hire-section h2 {
