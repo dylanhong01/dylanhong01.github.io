@@ -719,8 +719,8 @@ Resume Timeline
 
 .timeline>li {
     position: relative;
-    margin-bottom: 50px;
-    min-height: 50px;
+    margin-bottom: 10px;
+    min-height: 10px;
 }
 
 .timeline>li:before,
@@ -740,7 +740,7 @@ Resume Timeline
 }
 
 .timeline-content{
-    padding:5px 20px 0 20px;
+    padding:0px 20px 0 20px;
 }
 
 .timeline>li .timeline-panel:before {
@@ -805,7 +805,7 @@ Resume Timeline
 .timeline-heading span{
     display: block;
     font-weight: 700;
-    margin-bottom: 20px;
+    margin-bottom: 0px;
 }
 
 
@@ -818,7 +818,7 @@ Resume Timeline
 }
 
 .timeline>li {
-    margin-bottom: 15px;
+    margin-bottom: -100px;
     min-height: 100px;
 }
 
