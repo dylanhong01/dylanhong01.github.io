@@ -1311,7 +1311,7 @@ Resume Timeline
     top: -10px;
     width: 40px;
     height: 40px;
-    background-color: #68c3a3;
+    background-color: #33bbff;
     z-index: -1;
     border-radius: 3px;
     -webkit-transform: rotate(45deg);
@@ -1363,7 +1363,7 @@ Resume Timeline
     color: #282828;
 }
 .entry-title a:hover{
-    color: #68c3a3;
+    color: #33bbff;
 }
 .entry-meta {
     color: #afafaf;
