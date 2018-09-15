@@ -1095,6 +1095,14 @@ Resume Timeline
 }
 
 
+.linksCustom {
+    position: relative;
+    color: #33bbff;
+    font-size: 16px;
+    margin: 0 38px;
+    z-index: 100;
+}
+
 .portfolio {
     position: relative;
     overflow: hidden;
@@ -1119,7 +1127,7 @@ Resume Timeline
 #filter li a.active,
 #filter li a:hover {
     position: relative;
-    background: #68c3a3;
+    background: #33bbff;
     color: #fff;
     border-bottom: 3px solid rgba(0, 0, 0, 0.15);
 }
@@ -1174,11 +1182,11 @@ Resume Timeline
     transform: translate(0,-50px);
 }
 
-.links a i{
+.links a i {
     position: relative;
     color: #33bbff;
     font-size: 16px;
-    margin: 0 13px;
+    margin: 0 38px;
     z-index: 100;
 }
 .links a:hover i {
@@ -1191,7 +1199,7 @@ Resume Timeline
     top: -7px;
     width: 30px;
     height: 30px;
-    border: 1px solid #68c3a3;
+    border: 1px solid #33bbff;
     z-index: -1;
     border-radius: 3px;
     -webkit-transform: rotate(45deg);
@@ -1208,7 +1216,7 @@ Resume Timeline
     position: absolute;
     bottom: -100%;
     left: 0;
-    background-color: #68c3a3;
+    background-color: #33bbff;
     color: #fff;
     height: 45px;
     width: 100%;
